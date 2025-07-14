@@ -1,0 +1,54 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to bottom right, #ffd3a5, #fd6585);
+          margin: 0;
+            padding: 0;
+              display: flex;
+                align-items: center;
+                  justify-content: center;
+                    height: 100vh;
+                    }
+
+                    .container, .form-container {
+                      background: white;
+                        padding: 2rem;
+                          border-radius: 1rem;
+                            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                              text-align: center;
+                              }
+
+                              h1, h2 {
+                                margin-bottom: 1rem;
+                                  color: #ff4b2b;
+                                  }
+
+                                  button {
+                                    padding: 10px 20px;
+                                      margin: 10px;
+                                        border: none;
+                                          background-color: #ff4b2b;
+                                            color: white;
+                                              border-radius: 8px;
+                                                cursor: pointer;
+                                                  font-size: 1rem;
+                                                  }
+
+                                                  button:hover {
+                                                    background-color: #e84318;
+                                                    }
+
+                                                    input {
+                                                      display: block;
+                                                        width: 100%;
+                                                          padding: 10px;
+                                                            margin: 10px 0;
+                                                              border: 1px solid #ccc;
+                                                                border-radius: 6px;
+                                                                }
+
+                                                                #result {
+                                                                  margin-top: 1rem;
+                                                                    font-size: 1.5rem;
+                                                                      color: #333;
+                                                                      }
+}
